@@ -45,7 +45,7 @@ while True:
         print('отшибка ввода')
             
     except ZeroDivisionError:
-        print('деление на ноль')
+        print('деление на нольdffgsdf')
 
 
 
