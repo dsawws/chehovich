@@ -21,9 +21,16 @@ def tan (a):
 
 while True:
     try:
-        a= int(input("число а "))
-        b=int(input("число b "))
         c=input("оператор ")
+        if c =="sin":
+             a= int(input("число а "))
+        elif c =="cos":
+             a= int(input("число а "))
+        elif c =="tan":
+             a= int(input("число а "))
+        else:
+            a= int(input("число а "))
+            b=int(input("число b "))
 
         if c=="+":
             plus(a,b)
