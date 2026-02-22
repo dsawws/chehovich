@@ -15,6 +15,14 @@ header {
   top: 0;
   z-index: 1000;
 }
+#printer-details {
+  float: right;
+  width: 50%;
+  flex: 1 1 400px;
+  max-width: 600px;
+  text-align: center;
+  margin-left: 30px; /* отступ справа от картинки */
+}
 
 header nav a {
   color: #fff;
@@ -75,6 +83,12 @@ header nav a {
   background: #003f7f;
 }
 
+.w{
+  align-items: center;
+}
+
+
+
 /* Модальное окно */
 .modal {
   display: none;
@@ -106,19 +120,36 @@ header nav a {
 }
 
 .gallery {
+  padding-top: 50px;
+  padding-left: 50px;
+  position: sticky;
+  width: 33.33333333%; /* можно подстраивать */
+  margin: 20px ;
+  overflow: hidden;
+}
+
+.carousel {
   display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
+  transition: transform 0.3s ease;
 }
 
-.gallery-image {
-  width: 200px;
+.carousel img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
   cursor: pointer;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: transform 0.2s;
+  padding: 0 10px;
 }
 
-.gallery-image:hover {
-  transform: scale(1.05);
-}
+#prev { left: 50px; }
+#next { right: 0; }

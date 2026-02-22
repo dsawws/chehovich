@@ -1,27 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Понидельник</h1>
-    <h2>Вторник</h2>
-    <h3>Среда</h3>
-    <h4>Четверг</h4>
-    <h5>Пятница</h5>
-    <h6>Суббота</h6>
-    <p>Восскресенье</p>
-    
-    <b>Text</b><br>
-    <i>Text</i><br>
-    <s>Text</s><br>
-    <mark>Text</mark><br>
-    <sub>Text</sub><br>
-    <sup>Text</sup><br>
-    <p>Text<big>Text</big></p><br>
-    <small>Text</small><br>
+<!-- printer.html -->
+<div class="printer-container">
+<style>/* styles.css */
+.printer-container {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
 
-</body>
-</html>
+.printer-image {
+  flex: 1;
+  position: relative;
+}
+
+#carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.carousel img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+#prev, #next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.3);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#prev { left: 5px; }
+#next { right: 5px; }
+
+.printer-info {
+  flex: 1;
+}
+
+.other-models {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.other-models .card {
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.other-models .card img {
+  width: 100%;
+  height: auto;
+}</style>
+  <!-- Слева: карусель с изображениями -->
+  <div class="printer-image">
+    <div id="carousel-container">
+      <button id="prev">&#10094;</button>
+      <div id="carousel" class="carousel"></div>
+      <button id="next">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- Справа: инфо о модели -->
+  <div class="printer-info">
+    <h1 id="modelName"></h1>
+    <p><strong>Тип:</strong> <span id="modelType"></span></p>
+    <p><strong>Скорость:</strong> <span id="modelSpeed"></span></p>
+    <p><strong>Разрешение:</strong> <span id="modelResolution"></span></p>
+    <p><strong>Интерфейсы:</strong> <span id="modelInterfaces"></span></p>
+    <p><strong>Дополнительно:</strong> <span id="modelExtra"></span></p>
+  </div>
+
+</div>
+
+<!-- Галерея других моделей -->
+<h2>Другие модели</h2>
+<div id="other-models" class="other-models"></div>

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Epson Принтер</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
 
@@ -20,15 +20,63 @@
 
 <section id="printer-details" class="section printer">
   <h1 id="modelName"></h1>
-  <img id="modelImage" src="" alt="Фото принтера">
+
   <p><strong>Тип:</strong> <span id="modelType"></span></p>
   <p><strong>Скорость:</strong> <span id="modelSpeed"></span></p>
   <p><strong>Разрешение:</strong> <span id="modelResolution"></span></p>
   <p><strong>Интерфейсы:</strong> <span id="modelInterfaces"></span></p>
   <p><strong>Дополнительно:</strong> <span id="modelExtra"></span></p>
-  <a href="models.html">Назад к списку моделей</a>
+  <p id="modelDescription"></p>
 </section>
-<script src="printers.js"></script>
-<script src="printer.js"></script>
+
+<section id="printerGallery" class="gallery">
+  <div id="carousel" class="carousel">
+  </div>
+  <button id="prev" class="carousel-btn">‹</button>
+  <button id="next" class="carousel-btn">›</button>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><!--переделать этот костыль -->
+<br>
+<br>
+<br>
+<br>
+
+<!--почему-то не работает модальное окно , надо потом разобраться -->
+
+<section class="section models">
+  <h2>Также может быть интересно</h2>
+  <div class="cards">
+    <div class="card" data-model="XP-4105">
+      <img src="../img/home/XP-4105/XP-4105.jpg" >
+      <h3>Expression Home XP-4105</h3>
+      <button class="btn-details">Подробнее</button>
+    </div>
+    <div class="card" data-model="XP-4200">
+      <img src="../img/home/XP-4200/XP-4200.jpg" >
+      <h3>Expression Home XP-4200</h3>
+      <button class="btn-details">Подробнее</button>
+    </div>
+    <div class="card" data-model="XP-4205">
+      <img src="../img/home/XP-4205/XP-4205.jpg" >
+      <h3>Expression Home XP-4205</h3>
+      <button class="btn-details">Подробнее</button>
+    </div>
+    <div class="card" data-model="XP-5200">
+      <img src="../img/home/XP-5200/XP-5200.jpg" >
+      <h3>Expression Home XP-5200</h3>
+      <button class="btn-details">Подробнее</button>
+    </div>
+  </div>
+  <section class="section models">
+  </div>
+</section>
+<script src="../JS/printers.js"></script>
+<script src="../JS/script.js"></script>
+<script src="../JS/printer.js"></script>
 </body>
 </html>

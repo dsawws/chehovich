@@ -5,55 +5,134 @@ const printers = {
     speed: "~10 ppm ч/б, ~5 ppm цвет (ISO)",
     resolution: "5760×1440 dpi",
     interfaces: "USB, Wi‑Fi, Wi‑Fi Direct",
-    extra: "автоматическая двусторонняя печать, Apple AirPrint, Epson Connect, мобильная печать"
+    extra: "автоматическая двусторонняя печать, Apple AirPrint, Epson Connect, мобильная печать",
+    description: "МФУ струйное Epson XP-4105 создано для домашних нужд печати, сканирования и копирования документов и фотографий. Пьезоэлектрическая струйная технология и система непрерывной подачи чернил обеспечивают высокую детализацию изображений и насыщенные цвета. Печать поддерживается на обычной бумаге, фотобумаге, конвертах и открытках. Интуитивная кнопочная панель с индикаторами упрощает управление всеми функциями. Для подключения предусмотрены USB и Wi-Fi, есть поддержка мобильной печати через Apple AirPrint и Epson Connect.",
+    images: {
+      main: "../img/home/XP-4105/XP-4105.jpg",
+      gallery: [
+        "../img/home/XP-4105/1.jpg",
+        "../img/home/XP-4105/2.jpg",
+        "../img/home/XP-4105/3.jpg"
+      ]
+    }
+
+
   },
   "XP-4200": {
     type: "Inkjet All‑in‑One (печать/скан/копия)",
     speed: "~10 ppm ч/б, ~5 ppm цвет (ISO)",
     resolution: "5760×1440 dpi",
     interfaces: "USB, Wi‑Fi, Wi‑Fi Direct",
-    extra: "автоматическая двусторонняя печать, мобильная печать через Epson Smart Panel"
+    extra: "автоматическая двусторонняя печать, мобильная печать через Epson Smart Panel",
+    description: "Epson XP-4200 — компактное домашнее МФУ для печати, сканирования и копирования. Используется пьезоэлектрическая струйная технология, которая обеспечивает четкое воспроизведение текста и фото. Система управления проста: кнопки с подсветкой и понятными обозначениями. Поддержка двусторонней печати, мобильной печати через Epson Smart Panel, USB и Wi-Fi позволяет легко интегрировать устройство в домашнюю сеть. Идеально подходит для учебы, работы и семейных проектов.",
+    images: {
+      main: "../img/home/XP-4200/XP-4200.jpg",
+      gallery: [
+        "../img/home/XP-4200/1.jpg",
+        "../img/home/XP-4200/2.jpg",
+        "../img/home/XP-4200/3.jpg",
+        "../img/home/XP-4200/4.jpg"
+      ]
+    }
   },
   "XP-4205": {
     type: "Inkjet All‑in‑One (печать/скан/копия)",
     speed: "~10 ppm ч/б, ~5 ppm цвет (ISO)",
     resolution: "5760×1440 dpi",
     interfaces: "USB, Wi‑Fi, Wi‑Fi Direct",
-    extra: "автоматическая двусторонняя печать, мобильная печать, совместимость с Apple AirPrint и Epson Smart Panel"
+    extra: "автоматическая двусторонняя печать, мобильная печать, совместимость с Apple AirPrint и Epson Smart Panel",
+    description: "МФУ Epson XP-4205 сочетает функции печати, сканирования и копирования с удобством домашнего использования. Технология Epson Micro Piezo обеспечивает точную печать текста и ярких фотографий. Устройство поддерживает двустороннюю печать, мобильную печать через Apple AirPrint и Epson Smart Panel, а также подключение через USB и Wi-Fi. Компактный дизайн и понятная панель управления делают работу с МФУ простой и комфортной, а использование разных типов бумаги — от обычной до фотобумаги — расширяет возможности домашнего творчества.",
+    images: {
+      main: "../img/home/XP-4205/XP-4205.jpg",
+      gallery: [
+        "../img/home/XP-4205/1.jpg",
+        "../img/home/XP-4205/2.jpg",
+        "../img/home/XP-4205/3.jpg"
+      ]
+    }  
   },
   "XP-5200": {
     type: "Inkjet All‑in‑One (печать/скан/копия)",
     speed: "~14 ppm ч/б, ~7.5 ppm цвет (ISO)",
     resolution: "4800×1200 dpi",
     interfaces: "USB, Wi‑Fi, Wi‑Fi Direct",
-    extra: 'крупный лоток на 150 листов, автоматическая двусторонняя печать, 2.4" LCD экран, Epson Smart Panel'
+    extra: 'крупный лоток на 150 листов, автоматическая двусторонняя печать, 2.4" LCD экран, Epson Smart Panel',
+    description: 'Epson XP-5200 — универсальное домашнее МФУ с функциями печати, копирования и сканирования. Пьезоэлектрическая струйная технология и система управления цветом позволяют получать насыщенные изображения с высокой детализацией. Поддерживается двусторонняя печать, печать на обычной бумаге, фотобумаге, конвертах и открытках. Большой 150-листовый лоток, экран 2.4" и мобильная печать через Epson Smart Panel упрощают эксплуатацию. Модель подойдет для активного домашнего использования и небольшого офиса.',
+    images: {
+      main: "../img/home/XP-5200/XP-5200.jpg",
+      gallery: [
+        "../img/home/XP-5200/1.jpg",
+        "../img/home/XP-5200/2.jpg",
+        "../img/home/XP-5200/3.jpg",
+        "../img/home/XP-5200/4.jpg",
+      ]
+    }  
   },
   "WF-4820": {
     type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
     speed: "~25 ISO ppm чёрный, ~12 ISO ppm цвет (двусторонняя ~16/9 ISO ppm)",
     resolution: "4800 × 2400 dpi",
     interfaces: "USB, Ethernet, Wi-Fi, Wi-Fi Direct",
-    extra: "PrecisionCore Heat-Free Technology, 4.3″ экран, крупный лоток на 250 л., мобильная печать (Epson Connect, AirPrint, Mopria)"
+    extra: "PrecisionCore Heat-Free Technology, 4.3″ экран, крупный лоток на 250 л., мобильная печать (Epson Connect, AirPrint, Mopria)",
+    description: "Epson WorkForce Pro WF-4820 — высокопроизводительное МФУ для дома и небольшого офиса. Использует PrecisionCore Heat-Free Technology, которая обеспечивает быструю печать с высоким качеством и долговечностью. Поддерживаются функции печати, копирования, сканирования и факса, двусторонняя печать, а также мобильная печать через Epson Connect, AirPrint и Mopria. Устройство оснащено крупным 250-листовым лотком и цветным 4.3″ экраном для удобного управления. Интерфейсы: USB, Ethernet, Wi-Fi и Wi-Fi Direct.",
+    images: {
+      main: "../img/pro/WF-4820/WF-4820.jpg",
+      gallery: [
+        "../img/pro/WF-4820/1.jpg",
+        "../img/pro/WF-4820/2.jpg",
+        "../img/pro/WF-4820/3.jpg",
+        "../img/pro/WF-4820/4.jpg",
+      ]
+    }  
   },
   "WF-3823": {
     type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
     speed: "~21 ISO ppm чёрный, ~11 ISO ppm цвет",
     resolution: "4800 × 2400 dpi",
     interfaces: "USB, Ethernet, Wi-Fi, Wi-Fi Direct",
-    extra: "PrecisionCore Heat-Free Technology, автоматическая двусторонняя печать, ADF на ~35 листов, мобильная печать и дисплей ~2.7″"
+    extra: "PrecisionCore Heat-Free Technology, автоматическая двусторонняя печать, ADF на ~35 листов, мобильная печать и дисплей ~2.7″",
+    description: "Epson WorkForce Pro WF-3823 — МФУ с расширенными функциями для дома и офиса. PrecisionCore Heat-Free Technology обеспечивает быструю и тихую печать с насыщенными цветами. Доступны функции копирования, сканирования, двусторонней печати и мобильной печати. 35-листовый ADF позволяет обрабатывать многостраничные документы. Для подключения предусмотрены USB, Ethernet и Wi-Fi. Удобный дисплей и простая панель управления делают работу с устройством комфортной.",
+    images: {
+      main: "../img/pro/WF-3823/WF-3823.jpg",
+      gallery: [
+        "../img/pro/WF-3823/1.jpg",
+        "../img/pro/WF-3823/2.jpg",
+        "../img/pro/WF-3823/3.jpg",
+        "../img/pro/WF-3823/4.jpg",
+      ]
+    }  
   },
   "WF-3820": {
     type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
     speed: "~21 ppm чёрный, ~10 ppm цвет; двусторонняя ~12 ppm/7 ppm",
     resolution: "4800 × 2400 dpi",
     interfaces: "USB, Ethernet, Wi-Fi, Wi-Fi Direct",
-    extra: "35-листовый ADF, touchscreen, поддержка Epson Connect & AirPrint "
+    extra: "35-листовый ADF, touchscreen, поддержка Epson Connect & AirPrint ",
+    description: "Epson WF-3820 — надежное МФУ для дома и небольшого офиса с функциями печати, сканирования, копирования и двусторонней печати. Поддерживается PrecisionCore Technology, обеспечивающая детализированные изображения и четкий текст. Устройство оснащено 35-листовым ADF и сенсорным экраном, что ускоряет обработку документов. Печать возможна через USB, Wi-Fi и мобильные приложения Epson Connect & AirPrint. Отличный вариант для работы с документами и фотографиями одновременно.",
+    images: {
+      main: "../img/pro/WF-3820/WF-3820.jpg",
+      gallery: [
+        "../img/pro/WF-3820/1.jpg",
+        "../img/pro/WF-3820/2.jpg",
+        "../img/pro/WF-3820/3.jpg",
+        "../img/pro/WF-3820/4.jpg",
+      ]
+    }  
   },
   "WF-4834": {
     type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
     speed: "~25 ISO ppm чёрный, ~12 ISO ppm цвет (двусторонняя ~16/9 ISO ppm)",
     resolution: "4800 × 2400 dpi",
     interfaces: "USB, Ethernet, Wi-Fi, Wi-Fi Direct",
-    extra: "PrecisionCore Heat-Free Technology, 50-листовый ADF, 500-листовый лоток, 4.3″ цветной экран, мобильная печать и fax"
+    extra: "PrecisionCore Heat-Free Technology, 50-листовый ADF, 500-листовый лоток, 4.3″ цветной экран, мобильная печать и fax",
+    description: "Epson WorkForce Pro WF-4834 — высокопроизводительное МФУ для профессионального использования дома или в офисе. Технология PrecisionCore Heat-Free обеспечивает быструю печать с высоким качеством и минимальным шумом. Поддерживаются функции сканирования, копирования, факса, двусторонней печати и мобильной печати. Устройство оснащено 50-листовым ADF, 500-листовым лотком и 4.3″ цветным сенсорным экраном для удобного управления. Интерфейсы: USB, Ethernet, Wi-Fi и Wi-Fi Direct, что делает подключение максимально гибким.",
+    images: {
+      main: "../img/pro/WF-4834/WF-4834.jpg",
+      gallery: [
+        "../img/pro/WF-4834/1.jpg",
+        "../img/pro/WF-4834/2.jpg",
+        "../img/pro/WF-4834/3.jpg"
+      ]
+    }  
   },
 };
