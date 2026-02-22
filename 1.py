@@ -1,12 +1,26 @@
-try :
-    a=int(input())
-    c=int(input())
-    b=a/c
-                                                                                                                                                                                                                                    
+import turtle
+t = turtle.Turtle()
+t.speed(3) # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
 
-except Exception:
-    print('ошибка')
-except ValueError:
-    print('другая ошибка')
-else:
-    print(b)    
+t.forward(200)
+t.left(90)
+t.forward(100)
+t.backward(100)
+t.right(90)
+t.backward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.backward(100)
+t.right(90)
+t.backward(200)
+t.right(90)
+t.forward(100)
+t.backward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.left(90)
+t.forward(100)
