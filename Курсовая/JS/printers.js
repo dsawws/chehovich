@@ -1,4 +1,3 @@
-// printers.js
 const printers = {
   "XP-4105": {
     type: "Inkjet All‑in‑One (печать/скан/копия)",
@@ -15,8 +14,6 @@ const printers = {
         "../img/home/XP-4105/3.jpg"
       ]
     }
-
-
   },
   "XP-4200": {
     type: "Inkjet All‑in‑One (печать/скан/копия)",
@@ -135,4 +132,147 @@ const printers = {
       ]
     }  
   },
+
+
+
+  
+"ET-4956": {
+    type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
+    speed: "~25 ISO ppm чёрный, ~12 ISO ppm цвет",
+    resolution: "4800 × 2400 dpi",
+    interfaces: "USB, Ethernet, Wi-Fi, Wi-Fi Direct",
+    extra: "большой ADF, 500-листовый лоток, мобильная печать",
+    description: "Epson ET-4956 — профессиональное МФУ с технологией EcoTank для экономичной печати. Поддерживает сканирование, копирование и двустороннюю печать. Идеально для дома или офиса с высокой нагрузкой.",
+    images: {
+        main: "../img/pro/ET-4956/ET-4956.jpg",
+        gallery: [
+            "../img/pro/ET-4956/1.jpg",
+            "../img/pro/ET-4956/2.jpg",
+            "../img/pro/ET-4956/3.jpg",
+            "../img/pro/ET-4956/4.jpg"
+        ]
+    }
+},
+"WF-7310": {
+    type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
+    speed: "~22 ISO ppm чёрный, ~11 ISO ppm цвет",
+    resolution: "4800 × 2400 dpi",
+    interfaces: "USB, Ethernet, Wi-Fi",
+    extra: "широкоформатная печать, ADF на 50 листов, мобильная печать",
+    description: "Epson WF-7310 — широкоформатное МФУ для бизнеса, поддерживает двустороннюю печать и мобильное подключение. Отлично подходит для офисов с потребностью в печати больших форматов.",
+    images: {
+        main: "../img/pro/WF-7310/WF-7310.jpg",
+        gallery: [
+            "../img/pro/WF-7310/1.jpg",
+            "../img/pro/WF-7310/2.jpg",
+            "../img/pro/WF-7310/3.jpg",
+            "../img/pro/WF-7310/4.jpg"
+        ]
+    }
+},
+"L-6490": {
+    type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
+    speed: "~30 ISO ppm чёрный, ~15 ISO ppm цвет",
+    resolution: "4800 × 2400 dpi",
+    interfaces: "USB, Ethernet, Wi-Fi, Wi-Fi Direct",
+    extra: "EcoTank, автоматическая двусторонняя печать, ADF 50 листов",
+    description: "Epson L-6490 — высокопроизводительное МФУ для офиса с системой больших резервуаров EcoTank. Поддерживает двустороннюю печать, сканирование и копирование с высокой скоростью и минимальными расходами на чернила.",
+    images: {
+        main: "../img/pro/L-6490/l-6490.jpg",
+        gallery: [
+            "../img/pro/L-6490/1.jpg"
+        ]
+    }
+},
+"L-15160": {
+    type: "All-in-One Inkjet Printer (печать/копия/скан/факс)",
+    speed: "~40 ISO ppm чёрный, ~20 ISO ppm цвет",
+    resolution: "4800 × 2400 dpi",
+    interfaces: "USB, Ethernet, Wi-Fi",
+    extra: "широкоформатная печать, ADF 100 листов, EcoTank",
+    description: "Epson L-15160 — мощное офисное МФУ с EcoTank, предназначенное для интенсивной печати больших объемов. Поддерживает двустороннюю печать, сканирование и мобильную печать через Wi-Fi.",
+    images: {
+        main: "../img/placeholder.jpg",
+        gallery: [
+            "../img/placeholder.jpg",
+            "../img/placeholder.jpg",
+            "../img/placeholder.jpg"
+        ]
+    }
+},
+"ET-2800": {
+    type: "All-in-One EcoTank Inkjet Printer (печать/копия/скан)",
+    speed: "~10 ISO ppm чёрный, ~5 ISO ppm цвет",
+    resolution: "4800 × 1200 dpi",
+    interfaces: "USB, Wi-Fi, Wi-Fi Direct",
+    extra: "EcoTank, низкая себестоимость печати, мобильная печать",
+    description: "Epson ET-2800 — компактное МФУ для дома и небольшого офиса. Система больших резервуаров чернил обеспечивает экономичную печать документов и фотографий. Поддержка беспроводной и мобильной печати.",
+    images: {
+        main: "../img/home/ET‑2800/ET-2800.jpg",
+        gallery: [
+            "../img/home/ET‑2800/1.jpg",
+            "../img/home/ET‑2800/2.jpg",
+            "../img/home/ET‑2800/3.jpg",
+            "../img/home/ET‑2800/4.jpg"
+        ]
+    }
+},
+"L-3270": {
+    type: "All-in-One EcoTank Inkjet Printer (печать/копия/скан)",
+    speed: "~15 ISO ppm чёрный, ~10 ISO ppm цвет",
+    resolution: "4800 × 1200 dpi",
+    interfaces: "USB, Wi-Fi",
+    extra: "EcoTank, двусторонняя печать, мобильная печать",
+    description: "Epson L-3270 — домашнее МФУ с системой EcoTank. Обеспечивает качественную печать документов и фотографий, поддержку двусторонней и мобильной печати, простой и удобный интерфейс управления.",
+    images: {
+        main: "../img/placeholder.jpg",
+        gallery: [
+            "../img/placeholder.jpg",
+            "../img/placeholder.jpg"
+        ]
+    }
+},
+"XP-2200": {
+    type: "All-in-One Inkjet Printer (печать/копия/скан)",
+    speed: "~10 ISO ppm чёрный, ~5 ISO ppm цвет",
+    resolution: "5760 × 1440 dpi",
+    interfaces: "USB, Wi-Fi",
+    extra: "компактное устройство для дома, поддержка AirPrint и мобильной печати",
+    description: "Epson XP-2200 — компактное домашнее МФУ для печати, сканирования и копирования. Пьезоэлектрическая струйная технология обеспечивает яркие и четкие изображения. Поддерживается мобильная печать через Wi-Fi и AirPrint.",
+    images: {
+        main: "../img/placeholder.jpg",
+        gallery: [
+            "../img/placeholder.jpg",
+            "../img/placeholder.jpg"
+        ]
+    }
+},
+"L-4260": {
+    type: "All-in-One EcoTank Inkjet Printer (печать/копия/скан)",
+    speed: "~20 ISO ppm чёрный, ~12 ISO ppm цвет",
+    resolution: "4800 × 1200 dpi",
+    interfaces: "USB, Wi-Fi, Wi-Fi Direct",
+    extra: "EcoTank, ADF 35 листов, двусторонняя печать, мобильная печать",
+    description: "Epson L-4260 — домашнее или офисное МФУ с системой EcoTank и поддержкой двусторонней печати. Идеально подходит для интенсивного использования дома и в малых офисах, поддерживает мобильную печать и сканирование.",
+    images: {
+        main: "../img/placeholder.jpg",
+        gallery: [
+            "../img/placeholder.jpg",
+            "../img/placeholder.jpg",
+            "../img/placeholder.jpg"
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 };

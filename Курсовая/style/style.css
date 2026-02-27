@@ -19,9 +19,8 @@ header {
   float: right;
   width: 50%;
   flex: 1 1 400px;
-  max-width: 600px;
+  max-width: 50%;
   text-align: center;
-  margin-left: 30px; /* отступ справа от картинки */
 }
 
 header nav a {
@@ -87,8 +86,6 @@ header nav a {
   align-items: center;
 }
 
-
-
 /* Модальное окно */
 .modal {
   display: none;
@@ -106,7 +103,7 @@ header nav a {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  width: 400px;
+  width: 450px;
   text-align: center;
   position: relative;
 }
@@ -120,10 +117,10 @@ header nav a {
 }
 
 .gallery {
-  padding-top: 50px;
+  padding-top: 5%;
   padding-left: 50px;
   position: sticky;
-  width: 33.33333333%; /* можно подстраивать */
+  width: 40%;
   margin: 20px ;
   overflow: hidden;
 }
@@ -153,3 +150,57 @@ header nav a {
 
 #prev { left: 50px; }
 #next { right: 0; }
+
+
+/* === МОБИЛЬНАЯ ВЕРСИЯ === */
+@media (max-width: 768px) {
+
+  /* контейнер принтера */
+  .printer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+  /* текст */
+  #printer-details {
+    width: 90%;
+    max-width: 90%;
+    text-align: center;
+    margin: 0;
+    float:right ;
+  }
+
+  /* галерея */
+  .gallery {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0px ;
+  }
+
+  /* модальное окно */
+  .modal-content {
+    width: 90%;
+  }
+
+  /* карточки на главной */
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  /* хедер */
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header nav {
+    margin-top: 10px;
+  }
+  #prev { left: 0; }
+
+
+}
