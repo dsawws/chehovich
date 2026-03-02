@@ -1,6 +1,6 @@
 import turtle
 t = turtle.Turtle()
-t.speed(3) # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
+t.speed(3) 
 
 t.forward(200)
 t.left(90)
