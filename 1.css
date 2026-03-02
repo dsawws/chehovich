@@ -1,0 +1,15 @@
+.parallax {
+    background-image: url('твой-фон.jpg');
+    height: 500px; /* высота блока */
+    background-attachment: fixed; /* фон “фиксирован” при скролле */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
