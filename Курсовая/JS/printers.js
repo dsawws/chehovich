@@ -192,11 +192,9 @@ const printers = {
     extra: "широкоформатная печать, ADF 100 листов, EcoTank",
     description: "Epson L-15160 — мощное офисное МФУ с EcoTank, предназначенное для интенсивной печати больших объемов. Поддерживает двустороннюю печать, сканирование и мобильную печать через Wi-Fi.",
     images: {
-        main: "../img/placeholder.jpg",
+        main: "https://i8.amplience.net/i/epsonemear/a18460-productpicture-hires-en-int-ecotank_l15160_01_header_2000x2000px?$product-xlarge$&fmt=auto&img404=missing_product&v=1",
         gallery: [
-            "../img/placeholder.jpg",
-            "../img/placeholder.jpg",
-            "../img/placeholder.jpg"
+            "https://i8.amplience.net/i/epsonemear/a18460-productpicture-hires-en-int-ecotank_l15160_02_attributes_2000x2000px?$product-xlarge$&fmt=auto&img404=missing_product&v=1"
         ]
     }
 },
@@ -225,10 +223,9 @@ const printers = {
     extra: "EcoTank, двусторонняя печать, мобильная печать",
     description: "Epson L-3270 — домашнее МФУ с системой EcoTank. Обеспечивает качественную печать документов и фотографий, поддержку двусторонней и мобильной печати, простой и удобный интерфейс управления.",
     images: {
-        main: "../img/placeholder.jpg",
+        main: "https://i8.amplience.net/i/epsonemear/a18418-productpicture-hires-en-int-ecotank_l3270_01_header_2000x2000px_png?$product-xlarge$&fmt=auto&img404=missing_product&v=1",
         gallery: [
-            "../img/placeholder.jpg",
-            "../img/placeholder.jpg"
+            "https://i8.amplience.net/i/epsonemear/a18418-productpicture-hires-en-int-ecotank_l3270_02_attributes_2000x2000px?$product-xlarge$&fmt=auto&img404=missing_product&v=1"
         ]
     }
 },
@@ -240,10 +237,10 @@ const printers = {
     extra: "компактное устройство для дома, поддержка AirPrint и мобильной печати",
     description: "Epson XP-2200 — компактное домашнее МФУ для печати, сканирования и копирования. Пьезоэлектрическая струйная технология обеспечивает яркие и четкие изображения. Поддерживается мобильная печать через Wi-Fi и AirPrint.",
     images: {
-        main: "../img/placeholder.jpg",
+        main: "https://i8.amplience.net/i/epsonemear/a17758-productpicture-en-int-expression_xp-2200_01_main_rp_flex_2000x2000px?fmt=auto&img404=missing_product&v=1",
         gallery: [
-            "../img/placeholder.jpg",
-            "../img/placeholder.jpg"
+            "https://i8.amplience.net/i/epsonemear/a17758-productpicture-hires-en-int-expression_xp-2200_02_attribute_rp_flex_2000x2000px?fmt=auto&img404=missing_product&v=1",
+            "https://i8.amplience.net/i/epsonemear/a17758-productpicture-hires-en-int-expression_xp-2200_09_smartpanel_2000x2000px?fmt=auto&img404=missing_product&v=1"
         ]
     }
 },
@@ -255,11 +252,11 @@ const printers = {
     extra: "EcoTank, ADF 35 листов, двусторонняя печать, мобильная печать",
     description: "Epson L-4260 — домашнее или офисное МФУ с системой EcoTank и поддержкой двусторонней печати. Идеально подходит для интенсивного использования дома и в малых офисах, поддерживает мобильную печать и сканирование.",
     images: {
-        main: "../img/placeholder.jpg",
+        main: "https://i8.amplience.net/i/epsonemear/a17899-productpicture-hires-en-int-l4260_1_header_2000x2000?fmt=auto&img404=missing_product&v=1",
         gallery: [
-            "../img/placeholder.jpg",
-            "../img/placeholder.jpg",
-            "../img/placeholder.jpg"
+            "https://i8.amplience.net/i/epsonemear/a17899-productpicture-hires-en-int-l4260_2_attributes_2000x2000?fmt=auto&img404=missing_product&v=1",
+            "https://i8.amplience.net/i/epsonemear/a17899-productpicture-hires-en-int-l4260_8_alternative_angle1_2000x2000?fmt=auto&img404=missing_product&v=1",
+            "https://i8.amplience.net/i/epsonemear/20lio2_mbl_blk_04_2?fmt=auto&img404=missing_product&v=1"
         ]
     }
 }

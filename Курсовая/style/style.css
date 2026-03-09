@@ -121,7 +121,7 @@ header nav a {
   padding-left: 50px;
   position: sticky;
   width: 40%;
-  margin: 20px ;
+  margin-bottom: 20px ;
   overflow: hidden;
 }
 
@@ -152,17 +152,15 @@ header nav a {
 #next { right: 0; }
 
 
-/* === МОБИЛЬНАЯ ВЕРСИЯ === */
-@media (max-width: 768px) {
+@media (max-width: 768px) {  
 
-  /* контейнер принтера */
   .printer-container {
     flex-direction: column;
     align-items: center;
     padding: 15px;
   }
 
-  /* текст */
+ 
   #printer-details {
     width: 90%;
     max-width: 90%;
@@ -171,7 +169,7 @@ header nav a {
     float:right ;
   }
 
-  /* галерея */
+
   .gallery {
     width: 100%;
     max-width: 100%;
@@ -179,18 +177,18 @@ header nav a {
     margin: 0px ;
   }
 
-  /* модальное окно */
+
   .modal-content {
     width: 90%;
   }
 
-  /* карточки на главной */
+
   .card {
     width: 90%;
     max-width: 300px;
   }
 
-  /* хедер */
+
   header {
     flex-direction: column;
     align-items: center;
