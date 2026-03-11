@@ -19,9 +19,8 @@ header {
   float: right;
   width: 50%;
   flex: 1 1 400px;
-  max-width: 600px;
+  max-width: 50%;
   text-align: center;
-  margin-left: 30px; /* отступ справа от картинки */
 }
 
 header nav a {
@@ -87,8 +86,6 @@ header nav a {
   align-items: center;
 }
 
-
-
 /* Модальное окно */
 .modal {
   display: none;
@@ -106,7 +103,7 @@ header nav a {
   background: #fff;
   padding: 30px;
   border-radius: 10px;
-  width: 400px;
+  width: 450px;
   text-align: center;
   position: relative;
 }
@@ -120,11 +117,11 @@ header nav a {
 }
 
 .gallery {
-  padding-top: 50px;
+  padding-top: 5%;
   padding-left: 50px;
   position: sticky;
-  width: 33.33333333%; /* можно подстраивать */
-  margin: 20px ;
+  width: 40%;
+  margin-bottom: 20px ;
   overflow: hidden;
 }
 
@@ -153,3 +150,55 @@ header nav a {
 
 #prev { left: 50px; }
 #next { right: 0; }
+
+
+@media (max-width: 768px) {  
+
+  .printer-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+  }
+
+ 
+  #printer-details {
+    width: 90%;
+    max-width: 90%;
+    text-align: center;
+    margin: 0;
+    float:right ;
+  }
+
+
+  .gallery {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0px ;
+  }
+
+
+  .modal-content {
+    width: 90%;
+  }
+
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header nav {
+    margin-top: 10px;
+  }
+  #prev { left: 0; }
+
+
+}
