@@ -1,4 +1,4 @@
-text="елка . ваывфвыа . ывафыафв . ееее"
+text="елка . аваывфвыа . ывафыафв . ееее"
 print (text)
 text_a=text.split()
 b=text.replace("a","")
