@@ -159,8 +159,6 @@ header nav a {
     align-items: center;
     padding: 15px;
   }
-
- 
   #printer-details {
     width: 90%;
     max-width: 90%;
@@ -168,37 +166,27 @@ header nav a {
     margin: 0;
     float:right ;
   }
-
-
   .gallery {
     width: 100%;
     max-width: 100%;
     padding: 0;
     margin: 0px ;
   }
-
-
   .modal-content {
     width: 90%;
   }
-
-
   .card {
     width: 90%;
     max-width: 300px;
   }
-
-
   header {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
   header nav {
     margin-top: 10px;
   }
   #prev { left: 0; }
-
 
 }
